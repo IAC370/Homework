@@ -1,0 +1,22 @@
+def euclideanDistance ():
+    
+    x = float(input("Enter x value: "))
+    y = float(input("Enter y value: "))
+    z = float(input("Enter z value: "))
+    t = float(input("Enter t value: "))
+
+
+
+    points =[(x,y),(z,t)]
+
+    x1, y1 = points[0]
+    x2, y2 = points[1]
+   
+    result = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+    print("Euclidean Distance:", result)
+
+    return result
+
+
+
+euclideanDistance()
